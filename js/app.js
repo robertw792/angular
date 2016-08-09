@@ -7,7 +7,7 @@ myApp.config (['$routeProvider', function($routeProvider) {
 
   $routeProvider.
   when('/list', {
-    templateUrl: 'partial/list.html',
+    templateUrl: 'partials/list.html',
     controller: 'ListController'
   }).
   when ('/details/:itemId', {
