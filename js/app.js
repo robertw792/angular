@@ -15,6 +15,6 @@ myApp.config (['$routeProvider', function($routeProvider) {
     controller: 'DetailsController'
   }).
   otherwise({
-    redirectTo: '/list'
+    redirectTo: '/list' 
   });
 }]);
